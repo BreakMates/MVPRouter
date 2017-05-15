@@ -1,3 +1,6 @@
+general:
+  build_dir: mvp-router
+
 machine:
   node:
     version: 7.1.0
