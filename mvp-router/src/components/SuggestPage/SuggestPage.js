@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import LandingPage from '../LandingPage/LandingPage';
+import config from './SuggestConfig';
 
 class SuggestPage extends Component {
 	render() {
 		return (
 				<div>
-					Suggest Landing Page<br/>
-	        <Link to="/">Dashboard</Link>
+					<LandingPage config={config}/>
 				</div>
 			)
 	}
