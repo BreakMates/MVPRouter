@@ -2,16 +2,23 @@ import React, { Component } from 'react';
 import BrandHeader from './BrandHeader/BrandHeader';
 import SellingSection from './SellingSection/SellingSection';
 import SignupSection from './SignupSection/SignupSection';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import injectTapEventPlugin from 'react-tap-event-plugin';
+import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
+import { blue, pink, red } from 'material-ui/styles/colors';
+import createPalette from 'material-ui/styles/palette';
 import './LandingPage.css';
 
-injectTapEventPlugin();
+const theme = createMuiTheme({
+  palette: createPalette({
+    primary: blue, // Purple and green play nicely together.
+    accent: pink,
+    error: red,
+  }),
+});
 
 class LandingPage extends Component {
 	render(){
 		return (
-				<MuiThemeProvider>
+				<MuiThemeProvider theme={theme}>
 					<div>
 						<BrandHeader hook={this.props.config.hook}/>
 						<SellingSection />

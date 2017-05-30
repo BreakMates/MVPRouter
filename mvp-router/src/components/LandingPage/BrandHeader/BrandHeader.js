@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './BrandHeader.css';
-import { RaisedButton } from 'material-ui';
+import Button from 'material-ui/Button';
 import Mockup from './../../../resources/mockup.png';
 
 class BrandHeader extends Component {
@@ -10,7 +10,7 @@ class BrandHeader extends Component {
 					<img alt="phone frame" src={Mockup} className="phone-mock"/><br/>
 					<h2>{this.props.hook.title}</h2><br/>
 					<p className="hookText">{this.props.hook.text}</p>
-					<RaisedButton label="Learn More" labelColor="#64B5F6"/>
+					<Button raised accent>Learn More</Button>
 				</div>
 			)
 	}
