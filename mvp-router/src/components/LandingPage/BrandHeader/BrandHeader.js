@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './BrandHeader.css';
 import { RaisedButton } from 'material-ui';
-import Mockup from './../../../resources/mockup.png'
+import Mockup from './../../../resources/mockup.png';
 
 class BrandHeader extends Component {
 	render(){

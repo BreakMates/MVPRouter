@@ -1,0 +1,21 @@
+.signupContainer{
+	background-color:#2196F3;
+	height:32rem;
+	padding-top:4em;
+	color: rgba(255, 255, 255, 0.87);
+}
+.signupCard{
+	padding:2rem;
+	text-align:left;
+	padding-bottom:4rem;
+	margin:2rem auto;
+	min-width: 10rem;
+	max-width: 40rem;
+	font-weight: 400;
+}
+.email{
+	margin-bottom:1rem;
+}
+.emailBtn{
+	float:right;
+}
