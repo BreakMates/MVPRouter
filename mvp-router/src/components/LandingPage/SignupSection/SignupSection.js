@@ -14,10 +14,10 @@ class SignupSection extends Component {
 						<CardContent> 
 							<Typography type="headline" gutterBottom>{this.props.register.title}</Typography>
 							<Typography type="caption">{this.props.register.subtitle}</Typography>
-							<TextField className="email" label="Email Address"/><br/>
+							<TextField className="email" label={this.props.register.hint}/><br/>
 						</CardContent>
 						<CardActions>
-				      <Button raised primary>Register for beta</Button>
+				      <Button raised primary>{this.props.register.button}</Button>
 				    </CardActions>
 					</Card>
 				</div>
