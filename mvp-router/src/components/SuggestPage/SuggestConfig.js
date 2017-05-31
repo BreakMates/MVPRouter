@@ -1,4 +1,7 @@
-import { FaceIcon } from 'material-ui-icons';
+import React from 'react';
+import FaceIcon from 'material-ui-icons/Face';
+import PermContactCalendar from 'material-ui-icons/PermContactCalendar';
+import TagFaces from 'material-ui-icons/TagFaces';
 
 var config = {
 	hook: {
@@ -17,7 +20,23 @@ var config = {
 		button: "Signup for beta"
 	},
 	selling: {
-		icons: []
+		points: [
+			{
+				icon: <FaceIcon/>,
+				hook: "Face to face",
+				text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+			},
+			{
+				icon: <TagFaces/>,
+				hook: "Easy to use",
+				text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+			},
+			{
+				icon: <PermContactCalendar/>,
+				hook: "Synced Calendar",
+				text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+			}
+		]
 	}
 }
 
