@@ -8,7 +8,7 @@ import Typography from 'material-ui/Typography';
 class SignupSection extends Component {
 	render(){
 		return (
-				<div className="signupContainer">
+				<div className="signupContainer" id="signupContainer">
 					<h2>{this.props.signuphook.title}</h2>
 					<Card className="signupCard">
 						<CardContent> 
