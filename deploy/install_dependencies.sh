@@ -1,6 +1,5 @@
 #!/bin/bash
-cd /var/apps/lander
+cd /var/apps/lander/mvp-router
 npm install
 npm install pm2 -g
-export NODE_ENV=production
-export PORT=80
+npm install http-server -g
