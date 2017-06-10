@@ -5,14 +5,14 @@ files:
     destination: /var/apps/lander
 hooks:
   AfterInstall:
-    - location: /var/apps/lander/deploy/install_dependencies
+    - location: deploy/install_dependencies
       timeout: 600
       runas: root
   ApplicationStart:
-    - location: /var/apps/lander/deploy/start_app
+    - location: deploy/start_app
       timeout: 180
       runas: root
   ApplicationStop:
-    - location: /var/apps/lander/deploy/stop_app
+    - location: deploy/stop_app
       timeout: 180
       runas: root
