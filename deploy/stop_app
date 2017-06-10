@@ -1,3 +1,3 @@
 #!/bin/bash
-pm2 stop lander
-pm2 delete lander
+sudo pm2 stop lander
+sudo pm2 delete lander
