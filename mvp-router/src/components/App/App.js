@@ -12,10 +12,10 @@ class App extends Component {
     return (
       <div className="App">
         <Switch>
-        	<Route path="/suggest" component={SuggestPage} />
+        	<Route path="/" component={SuggestPage} />
         	<Route path="/tinder" component={TinderPage} />
         	<Route path="/plugin" component={PluginPage} />
-        	<Route path="/" component={Dashboard} />
+        	<Route path="/dashboard" component={Dashboard} />
         </Switch>
       </div>
     );
