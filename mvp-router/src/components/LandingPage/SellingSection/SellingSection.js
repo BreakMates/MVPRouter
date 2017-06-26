@@ -7,8 +7,9 @@ import Card, { CardContent } from 'material-ui/Card';
 class SellingSection extends Component {
 	render(){
 		return (
+			<div className="gridContainer">
 				<Grid container className="root sellingContainer">
-					<Grid item xs={12}>
+					<Grid item xs={12} className="innerContainer">
 	          <Grid container justify="center" className="salesPanel">
 	            {(this.props.selling.points).map((val, i) => {
 	              return (
@@ -28,6 +29,7 @@ class SellingSection extends Component {
 	          </Grid>
 	        </Grid>
 				</Grid>
+			</div>
 			)
 	}
 }

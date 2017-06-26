@@ -22,7 +22,9 @@ class LandingPage extends Component {
 					<div>
 						<BrandHeader hook={this.props.config.hook}/>
 						<SellingSection selling={this.props.config.selling}/>
-						<SignupSection signuphook={this.props.config.signuphook} register={this.props.config.register}/>
+						<SignupSection signuphook={this.props.config.signuphook} 
+							landerId={this.props.config.id}
+						 	register={this.props.config.register}/>
 					</div>
 				</MuiThemeProvider>
 			)

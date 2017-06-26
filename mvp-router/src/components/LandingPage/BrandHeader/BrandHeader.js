@@ -18,7 +18,7 @@ class BrandHeader extends Component {
 					<img alt="phone frame" src={Mockup} className="phone-mock"/><br/>
 					<h2>{this.props.hook.title}</h2><br/>
 					<p className="hookText">{this.props.hook.text}</p>
-					<Button raised accent onClick={this.scrollIntoView}>{this.props.hook.button}</Button>
+					<Button raised color="accent" onClick={this.scrollIntoView}>{this.props.hook.button}</Button>
 				</div>
 			)
 	}

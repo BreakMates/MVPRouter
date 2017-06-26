@@ -4,6 +4,7 @@ import PermContactCalendar from 'material-ui-icons/PermContactCalendar';
 import TagFaces from 'material-ui-icons/TagFaces';
 
 var config = {
+	id: "SUG-1",
 	hook: {
 		title: "Rediscover your free time",
 		text: "Use BreakMates to find new things to do with your friends",
