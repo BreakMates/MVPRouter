@@ -8,17 +8,16 @@ var config = {
 	hook: {
 		title: "Rediscover your free time",
 		text: "Use BreakMates to find new things to do with your friends",
-		button: "Learn More"
+		button: "Be the first to do so"
 	},
 	signuphook: {
 		title: "Be the first to Rediscover your free time",
-		text: ""
 	},
 	register: {
 		title: "Register to our mailing list",
 		subtitle: "We'll notify you when we release our first beta",
 		hint: "Email Address",
-		button: "Signup for beta"
+		button: "Signup for the beta now"
 	},
 	selling: {
 		points: [

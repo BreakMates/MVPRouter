@@ -6,10 +6,8 @@ import Mockup from './../../../resources/mockup.png';
 class BrandHeader extends Component {
 
 	scrollIntoView() {
-   	var e = document.getElementById("#signupContainer");
-   	if (!!e && e.scrollIntoView) {
-       e.scrollIntoView();
-   	}
+   	window.scrollTo(0,document.body.scrollHeight);
+   	document.getElementById("email").focus();
 	}
 
 	render(){
