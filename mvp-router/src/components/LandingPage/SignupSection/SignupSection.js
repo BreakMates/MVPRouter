@@ -8,13 +8,9 @@ import Typography from 'material-ui/Typography';
 class SignupSection extends Component {
 	constructor(props) {
 		super(props);
+		window.mixpanel.track("Suggest Render")
 		this.submitEmail = () => {
-			window.ga('send', {
-			  hitType: 'event',
-			  eventCategory: 'Buttons',
-			  eventAction: 'waitlist',
-			  eventLabel: 'Lander ' + this.props.landerId
-			});
+			window.mixpanel.track("Load " + this.props.landerId)
 			document.forms["mc-embedded-subscribe-form"].submit();
 		}
 	}
