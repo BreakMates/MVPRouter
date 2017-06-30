@@ -22,7 +22,7 @@ class SignupSection extends Component {
 	async sendEmail(email) {
 	  try {
 	  	const response = await fetch(
-	  		"http://ess.breakmates.com/emails",
+	  		"https://ess.breakmates.com/emails",
 	  		{
 	  			method: "POST",
 	  			mode: "cors",
