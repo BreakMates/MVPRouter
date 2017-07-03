@@ -45,7 +45,7 @@ class SignupSection extends Component {
 		this.submitEmail = () => {
 			var email = document.getElementById("email").value;
 			if(this.validEmail(email)){
-				window.mixpanel.track("Load " + this.props.landerId)
+				window.mixpanel.track("Email-Submission-" + this.props.landerId)
 				this.sendEmail(email);
 			}else{
 				this.setState({ errored : true })

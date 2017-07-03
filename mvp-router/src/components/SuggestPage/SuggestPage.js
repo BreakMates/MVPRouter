@@ -4,7 +4,7 @@ import config from './SuggestConfig';
 
 class SuggestPage extends Component {
 	render() {
-		window.mixpanel.track("Suggest Render");
+		window.mixpanel.track("Render-" + this.props.landerId);
 		return (
 				<div>
 					<LandingPage config={config}/>
