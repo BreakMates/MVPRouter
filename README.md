@@ -1,2 +1,2 @@
-## MVP Router [![Build Status](https://circleci.com/gh/BreakMates/MVPRouter.png?circle-token=76d2bb0dfbad1ce5e92978159b98dfb451e53c2c)](https://circleci.com/gh/BreakMates/MVPRouter/tree/master)
+## MVP Router [![CircleCI](https://circleci.com/gh/BreakMates/MVPRouter/tree/master.svg?style=svg&circle-token=553c944cc21d05b5284dcc01e29afa6b2b7e076e)](https://circleci.com/gh/BreakMates/MVPRouter/tree/master)
 ### Router for landing pages
