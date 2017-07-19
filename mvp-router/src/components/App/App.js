@@ -23,10 +23,6 @@ class App extends Component {
     }
     if(window.location.host.split(":")[0] !== "lander.breakmates.com"){
       window.mixpanel = new MixpanelMock();
-    }else{
-      var realMixpanel = document.createElement('script');
-      realMixpanel.setAttribute('src','mixpanel.js');
-      document.body.appendChild(realMixpanel);
     }
   	window.mixpanel.track("Hit-Load-Balancer");
 	}
