@@ -6,7 +6,7 @@ import TagFaces from 'material-ui-icons/TagFaces';
 var config = {
 	weights: [
 		{
-			weight: 33,
+			weight: 100,
 			name: "suggest"
 		},
 		{
