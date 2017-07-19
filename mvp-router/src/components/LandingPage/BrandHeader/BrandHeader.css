@@ -22,3 +22,10 @@ p {
 .phone-mock {
 	height:26rem;
 }
+
+.screen-mock {
+	width: 12rem;
+	top: 7rem;
+	position: absolute;
+	margin-left:-6rem;
+}
