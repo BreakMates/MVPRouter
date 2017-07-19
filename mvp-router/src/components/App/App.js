@@ -2,8 +2,36 @@ import React, { Component } from 'react';
 import './App.css';
 
 class App extends Component {
-  render() {
+
+	componentWillMount() {
+		var MixpanelMock = (function() {
+      function MixpanelMock() {
+        this.init = function() {
+          console.log("mixpanel.init", arguments);
+        }
+        this.track = function() {
+          console.log("mixpanel.track", arguments);
+        }
+      }
+
+      return MixpanelMock;
+
+    })();
+
+    if(window.location.host.split(":")[0] !== "localhost" && window.location.protocol !== "https:"){
+      window.location = "https://lander.breakmates.com";
+    }
+    if(window.location.host.split(":")[0] !== "lander.breakmates.com"){
+      window.mixpanel = new MixpanelMock();
+    }else{
+      var realMixpanel = document.createElement('script');
+      realMixpanel.setAttribute('src','mixpanel.js');
+      document.body.appendChild(realMixpanel);
+    }
   	window.mixpanel.track("Hit-Load-Balancer");
+	}
+
+  render() {
     return (
       <div className="App">
         {this.props.children}
