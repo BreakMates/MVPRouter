@@ -18,11 +18,11 @@ var config = {
 		id: "SUG-1",
 		hook: {
 			title: "Rediscover your free time",
-			text: "Use BreakMates to find new things to do with your friends",
+			text: "Use BreakMates to find new activities nearby.",
 			button: "Be the first to do so"
 		},
 		signuphook: {
-			title: "Be the first to Rediscover your free time",
+			title: "Be the first to rediscover your free time",
 		},
 		register: {
 			title: "Register to our mailing list",
@@ -34,18 +34,18 @@ var config = {
 			points: [
 				{
 					icon: <FaceIcon/>,
-					hook: "Face to face",
-					text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+					hook: "Activity Suggestions",
+					text: "BreakMates makes planning easier by helping you decide what to do, with curated activity suggestions based on your interests."
 				},
 				{
 					icon: <TagFaces/>,
-					hook: "Easy to use",
-					text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+					hook: "Suggested Locations",
+					text: "Each activity includes a list of nearby places for you to visit with your friends."
 				},
 				{
 					icon: <PermContactCalendar/>,
-					hook: "Synced Calendar",
-					text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+					hook: "Group Chat",
+					text: "Keep all of the info in one place and chat with your friends."
 				}
 			]
 		}
@@ -53,12 +53,12 @@ var config = {
 	alternate: {
 		id: "SUG-2",
 		hook: {
-			title: "Rediscover your free time 2",
-			text: "Use BreakMates to find new things to do with your friends",
+			title: "Awesome activities, just for you",
+			text: "Use BreakMates to find new activities nearby.",
 			button: "Be the first to do so"
 		},
 		signuphook: {
-			title: "Be the first to Rediscover your free time",
+			title: "Be the first to rediscover your free time",
 		},
 		register: {
 			title: "Register to our mailing list",
@@ -70,18 +70,18 @@ var config = {
 			points: [
 				{
 					icon: <FaceIcon/>,
-					hook: "Face to face",
-					text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+					hook: "Activity Suggestions",
+					text: "BreakMates makes planning easier by helping you decide what to do, with curated activity suggestions based on your interests."
 				},
 				{
 					icon: <TagFaces/>,
-					hook: "Easy to use",
-					text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+					hook: "Suggested Locations",
+					text: "Each activity includes a list of nearby places for you to visit with your friends."
 				},
 				{
 					icon: <PermContactCalendar/>,
-					hook: "Synced Calendar",
-					text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+					hook: "Group Chat",
+					text: "Keep all of the info in one place and chat with your friends."
 				}
 			]
 		}
