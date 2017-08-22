@@ -45,7 +45,7 @@ var config = {
 				{
 					icon: <PermContactCalendar/>,
 					hook: "Group Chat",
-					text: "Keep all of the info in one place and chat with your friends."
+					text: "Make the plan, keep all the info in one place and chat with your friends."
 				}
 			]
 		}
@@ -81,7 +81,7 @@ var config = {
 				{
 					icon: <PermContactCalendar/>,
 					hook: "Group Chat",
-					text: "Keep all of the info in one place and chat with your friends."
+					text: "Make the plan, keep all the info in one place and chat with your friends."
 				}
 			]
 		}
