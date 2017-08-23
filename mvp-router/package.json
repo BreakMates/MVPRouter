@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "history": "^4.6.1",
-    "material-ui": "^1.0.0-alpha.20",
-    "material-ui-icons": "^1.0.0-alpha.3",
+    "material-ui": "1.0.0-alpha.20",
+    "material-ui-icons": "1.0.0-alpha.3",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-mixpanel": "0.0.8",
