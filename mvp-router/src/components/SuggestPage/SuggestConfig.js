@@ -40,7 +40,7 @@ var config = {
 				{
 					headline: "Group Chat",
 					details: "Make the plan, keep all the info in one place and chat with your friends.",
-					imageUrl: "/images/mockup.png"
+					imageUrl: "/images/features-3.png"
 				}
 			]
 		}
