@@ -10,14 +10,14 @@ class SellingSection extends Component {
 				{ this.props.switch ?
 					(
 						<Grid align="center" justify="center" container spacing={24}>
-							<Grid item md={2} xs={8} >
+							<Grid item md={3} xs={8} >
 								<div>
 									<h3>{this.props.content.headline}</h3>
 									<p>{this.props.content.details}</p>
 								</div>
 							</Grid>
 							<Hidden smDown>
-								<Grid item md={4}>
+								<Grid item md={5}>
 									<div>
 										<img src={this.props.content.imageUrl} className="phone-mock" alt="mockup"/>
 									</div>
@@ -28,13 +28,13 @@ class SellingSection extends Component {
 						(
 						<Grid align="center" justify="center" container spacing={24}>
 							<Hidden smDown>
-								<Grid item md={4}>
+								<Grid item md={5}>
 									<div>
 										<img src={this.props.content.imageUrl} className="phone-mock" alt="mockup"/>
 									</div>
 								</Grid>
 							</Hidden>
-							<Grid item xs={8} md={2}>
+							<Grid item xs={8} md={3}>
 								<div>
 									<h3>{this.props.content.headline}</h3>
 									<p>{this.props.content.details}</p>

@@ -23,7 +23,7 @@ class LandingPage extends Component {
 						<BrandHeader hook={this.props.config.hook} mocks={this.props.config.mocks}/>
 						{
 							(this.props.config.selling.points).map((val, i) => {
-	              return <SellingSection key={i} switch={i%2 === 1} content={val}/>
+	              return <SellingSection key={i} switch={i%2 === 0} content={val}/>
 	           	})
 						}
 						<SignupSection signuphook={this.props.config.signuphook} 
