@@ -10,7 +10,7 @@ class SellingSection extends Component {
 				{ this.props.switch ?
 					(
 						<Grid align="center" justify="center" container spacing={24}>
-							<Grid item md={3} xs={8} >
+							<Grid item md={2} xs={8} >
 								<div>
 									<h3>{this.props.content.headline}</h3>
 									<p>{this.props.content.details}</p>
@@ -34,7 +34,7 @@ class SellingSection extends Component {
 									</div>
 								</Grid>
 							</Hidden>
-							<Grid item xs={8} md={3}>
+							<Grid item xs={8} md={2}>
 								<div>
 									<h3>{this.props.content.headline}</h3>
 									<p>{this.props.content.details}</p>

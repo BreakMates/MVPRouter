@@ -72,6 +72,7 @@ class SignupSection extends Component {
 				      <Button onClick={this.submitEmail} raised color="accent">{this.props.register.button}</Button>
 				    </CardActions>
 					</Card>
+					<h6></h6>
 					<Snackbar
 	          anchorOrigin={{
 	            vertical: 'bottom',
