@@ -30,7 +30,7 @@ var config = {
 				{
 					headline: "Activity Suggestions",
 					details: "BreakMates makes planning easier by helping you decide what to do, with curated activity suggestions based on your interests.",
-					imageUrl: "/images/mockup.png"
+					imageUrl: "/images/features-1.png"
 				},
 				{
 					headline: "Suggested Locations",
