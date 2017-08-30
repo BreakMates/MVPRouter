@@ -64,7 +64,7 @@ class SignupSection extends Component {
 					<Card className="signupCard">
 						<CardContent> 
 							<Typography type="headline" gutterBottom>{this.props.register.title}</Typography>
-							<Typography type="caption">{this.props.register.subtitle}</Typography>
+							<Typography type="caption">{this.props.register.subtitle}</Typography><br/>
 							<TextField error={this.state.errored} type="email" className="email" 
 								id="email" label={this.props.register.hint}/><br/>
 						</CardContent>

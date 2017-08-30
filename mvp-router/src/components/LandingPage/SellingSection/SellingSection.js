@@ -1,34 +1,48 @@
 import React, { Component } from 'react';
 import './SellingSection.css';
 import Grid from 'material-ui/Grid';
-import Typography from 'material-ui/Typography';
-import Card, { CardContent } from 'material-ui/Card';
+import Hidden from 'material-ui/Hidden';
 
 class SellingSection extends Component {
 	render(){
 		return (
-			<div className="gridContainer">
-				<Grid container className="root sellingContainer">
-					<Grid item xs={12} className="innerContainer">
-	          <Grid container justify="center" className="salesPanel">
-	            {(this.props.selling.points).map((val, i) => {
-	              return (
-	              	<Grid key={i} item xs={10} md={3}>
-		                <Card className="salesPaper">
-		                	<span className="salesIcon">
-		                		{val.icon}
-		                	</span>
-		                	<CardContent>
-		                		<Typography type="headline" gutterBottom>{val.hook}</Typography>
-		                		<Typography type="body1" gutterBottom>{val.text}</Typography>
-		                	</CardContent>
-		                </Card>
-		              </Grid>
-		              )
-	            })}
-	          </Grid>
-	        </Grid>
-				</Grid>
+			<div className="sellingContainer">
+				{ this.props.switch ?
+					(
+						<Grid align="center" justify="center" container spacing={24}>
+							<Grid item md={3} xs={8} >
+								<div>
+									<h3>{this.props.content.headline}</h3>
+									<p>{this.props.content.details}</p>
+								</div>
+							</Grid>
+							<Hidden smDown>
+								<Grid item md={4}>
+									<div>
+										<img src={this.props.content.imageUrl} className="phone-mock" alt="mockup"/>
+									</div>
+								</Grid>
+							</Hidden>
+						</Grid>)
+						:
+						(
+						<Grid align="center" justify="center" container spacing={24}>
+							<Hidden smDown>
+								<Grid item md={4}>
+									<div>
+										<img src={this.props.content.imageUrl} className="phone-mock" alt="mockup"/>
+									</div>
+								</Grid>
+							</Hidden>
+							<Grid item xs={8} md={3}>
+								<div>
+									<h3>{this.props.content.headline}</h3>
+									<p>{this.props.content.details}</p>
+								</div>
+							</Grid>
+						</Grid>
+						)
+				}
 			</div>
 			)
 	}

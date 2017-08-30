@@ -3,26 +3,28 @@
 	margin:0 !important;
 	max-width:100%;
 	background-color: #FFF;
+	border-bottom: 1px solid #ccc;
+	padding:5rem 0;
+	display:inline-block;
+	color:#555;
 }
 
-.innerContainer{
-	padding:0px;
+.sellingContent{
+	display:inline-block;
 }
 
-.gridContainer{
-	max-width:100%;
+.phone-mock {
+	height:26rem;
 }
 
-.salesPanel{
-	padding-top:2rem;
-	padding-bottom:2rem;
+.sellingContainer > * > * > * > h3 {
+	font-weight: 400;
+	margin-top:-1rem;
+	text-align:left;
+	margin-bottom: 0.5rem;
 }
-.salesPaper{
-	padding:1rem;
-}
-.salesIcon svg{
-	padding-top:1rem;
-	height:4em !important;
-	width:4em !important;
-	color:#2196F3;
+
+.sellingContainer > * > * > * > p {
+	font-weight: 300;
+	text-align:left;
 }
