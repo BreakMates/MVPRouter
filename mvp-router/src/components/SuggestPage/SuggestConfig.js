@@ -35,7 +35,7 @@ var config = {
 				{
 					headline: "Suggested Locations",
 					details: "Each activity includes a list of places for you to visit with your friends.",
-					imageUrl: "/images/features-2.png"
+					imageUrl: "/images/features-2-V2.png"
 				},
 				{
 					headline: "Group Chat",
