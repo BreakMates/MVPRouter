@@ -4,15 +4,14 @@ import SellingSection from './SellingSection/SellingSection';
 import SignupSection from './SignupSection/SignupSection';
 import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
 import { blue, pink, red } from 'material-ui/colors';
-import createPalette from 'material-ui/styles/palette';
 import './LandingPage.css';
 
 const theme = createMuiTheme({
-  palette: createPalette({
-    primary: blue, // Purple and green play nicely together.
-    accent: pink,
+  palette: {
+    primary: blue,
+    secondary: pink,
     error: red,
-  }),
+  }
 });
 
 class LandingPage extends Component {

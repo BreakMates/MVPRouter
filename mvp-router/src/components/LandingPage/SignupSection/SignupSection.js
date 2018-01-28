@@ -69,7 +69,7 @@ class SignupSection extends Component {
 								id="email" label={this.props.register.hint}/><br/>
 						</CardContent>
 						<CardActions>
-				      <Button onClick={this.submitEmail} raised color="accent">{this.props.register.button}</Button>
+				      <Button onClick={this.submitEmail} raised color="secondary">{this.props.register.button}</Button>
 				    </CardActions>
 					</Card>
 					<h6></h6>
